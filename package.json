@@ -1,0 +1,26 @@
+{
+  "name": "flightline",
+  "version": "1.0.0",
+  "description": "Aviation & Aerospace Learning Platform with 3D Flight Simulator",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm start",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "aviation",
+    "aerospace",
+    "simulator",
+    "chatbot",
+    "quiz",
+    "3d"
+  ],
+  "author": "Akshobhya",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.0.0"
+  }
+}
